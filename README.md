@@ -43,7 +43,7 @@ The dataset should be structured as text data that can be tokenized by the Huggi
 
 ```python
 from datasets import load_dataset
-dataset = load_dataset("pubmed", split="train")  # You can replace with any other medical dataset
+dataset = load_dataset("SMSSpamCollection split="train")  # You can replace with any other medical dataset
 ```
 After loading the dataset, we preprocess it by tokenizing the text and truncating it to a maximum length (512 tokens). This is done using the preprocess_function in the code.
 Fine-Tuning
@@ -63,7 +63,7 @@ python fine_tuning_script.py
 ```
 The script will:
 Load the pre-trained model (gpt2 by default, but you can change this to GPT-3 or LLaMA).
-Tokenize the dataset (e.g., PubMed).
+Tokenize the dataset 
 Train the model on the dataset using the specified hyperparameters.
 Save the fine-tuned model to the ./results directory.
 
