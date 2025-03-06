@@ -1,6 +1,6 @@
-# Fine-Tuning a Language Model for the Medical Domain
+# Fine-Tuning a Language Model for the Spam Detection
 
-This repository contains code and instructions for fine-tuning a pre-trained language model on medical text data. The model is fine-tuned using a dataset related to the medical domain, such as PubMed articles, medical reports, or clinical data. The goal is to adapt a general-purpose model (like GPT-2, GPT-3, or LLaMA) to understand and generate medical content.
+This repository contains code and instructions for fine-tuning a pre-trained language model on spam message data. The model is fine-tuned using a dataset related to the Spam Detection in Emails, SMS Spam Filtering etc. . The goal is to adapt a general-purpose model (like GPT-2, GPT-3, or LLaMA) to detect spam messages.
 
 ## Table of Contents
 
@@ -13,11 +13,7 @@ This repository contains code and instructions for fine-tuning a pre-trained lan
 
 ## Overview
 
-This project fine-tunes a pre-trained language model on a medical text dataset to perform various medical NLP tasks such as:
-- Text generation (e.g., generating medical summaries or reports).
-- Named Entity Recognition (NER) and extraction of medical entities.
-- Question answering for medical queries.
-
+This project fine-tunes a pre-trained language model on a spa dataset to perform various spam detections
 The code uses the **Hugging Face Transformers** library, which provides a simple API for loading, fine-tuning, and evaluating pre-trained language models.
 
 ## Setup
@@ -37,8 +33,7 @@ To install the necessary dependencies, you can use the following command:
 pip install transformers datasets torch accelerate
 ```
 ## Dataset
-This project uses a publicly available medical dataset to fine-tune the language model. By default, we use the PubMed dataset, which contains biomedical research articles. You can replace this with other datasets such as MIMIC-III, ClinicalTrials.gov, or a custom medical dataset.
-
+This project uses a publicly available dataset to fine-tune the language model. By default, we use the SMSSpaCollection dataset, which contains various spam messages.
 The dataset should be structured as text data that can be tokenized by the Hugging Face tokenizer. Here's an example of how to load and preprocess the dataset:
 
 ```python
