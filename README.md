@@ -11,7 +11,7 @@ This repository contains code and instructions for fine-tuning a pre-trained lan
 - [Evaluation](#evaluation)
 - [Model Saving](#model-saving)
 
-## overview
+## Overview
 
 This project fine-tunes a pre-trained language model on a medical text dataset to perform various medical NLP tasks such as:
 - Text generation (e.g., generating medical summaries or reports).
