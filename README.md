@@ -1,4 +1,6 @@
-Creating a README file for your project on fine-tuning a DistilBERT model for sentiment analysis involves providing clear and comprehensive information about your project. Here's a suggested structure for your README file:
+# Fine-Tuned Sentiment Analysis with DistilBERT
+
+This project focuses on fine-tuning a pre-trained DistilBERT model using the Hugging Face Transformers library for a custom sentiment analysis task. Specifically, it involves training the model to classify SMS messages as "ham" (non-spam) or "spam". The dataset used for this task is the SMS Spam Collection Dataset. The repository provides all the necessary code and instructions to preprocess the data, fine-tune the model, evaluate its performance, and use it for prediction.
 
 ```markdown
 # Fine-Tuned Sentiment Analysis with DistilBERT
