@@ -64,9 +64,3 @@ print(f"Class probabilities: {probabilities}")
 
 Contributions are welcome! Please open an issue or submit a pull request if you would like to contribute to this project.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-This structure covers the essential aspects of your project and provides users with the information needed to understand, install, and use your code. Feel free to customize this template to better fit your specific project and requirements.
